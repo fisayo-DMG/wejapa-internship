@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-task-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "Fisayo",
+  "license": "ISC"
+}
