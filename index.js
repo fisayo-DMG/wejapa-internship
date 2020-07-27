@@ -41,6 +41,8 @@ const server = http.createServer((req, res) => {
     });
     req.on("end", () => {
       res.writeHead(200, { "Content-Type": "text/html" });
+      const bodyMessage = parse(body);
+      console.log(bodyMessage)
       res.end(`<center><h1>Hello ${parse(body).name}, Welcome to WeJapa Internships<h1></center>`);
     });
   } else {
